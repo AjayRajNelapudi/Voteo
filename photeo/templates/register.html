@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bulma.css' %}">
+    <meta charset="UTF-8">
+    <title>Contestant</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{% url 'gallery' %}">
+                <div class="subtitle is-2">
+                    ANITS Photography Contest
+                </div>
+            </a>
+
+            <!--<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">-->
+                <!--<span aria-hidden="true"></span>-->
+                <!--<span aria-hidden="true"></span>-->
+                <!--<span aria-hidden="true"></span>-->
+            <!--</a>-->
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <table class="table is-hoverable is-bordered" align="center">
+            <tr>
+                <td><strong>Name</strong></td>
+                <td>{{ contestant.name }}</td>
+            </tr>
+            <tr>
+                <td><strong>Email</strong></td>
+                <td>{{ contestant.email }}</td>
+            </tr>
+            <tr>
+                <td><strong>Insta profile</strong></td>
+                <td>{{ contestant.social_account }}</td>
+            </tr>
+            <tr>
+                <td><strong>Picture</strong></td>
+                <td>{{ contestant.picture }}</td>
+            </tr>
+            <tr>
+                <td><strong>Title</strong></td>
+                <td>{{ contestant.title }}</td>
+            </tr>
+
+            <tr><td>
+                <div class="control">
+                    <button class="button is-link" type="submit">Upload</button>
+                </div>
+            </td></tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bulma.css' %}">
+    <meta charset="UTF-8">
+    <title>Vote</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{% url 'gallery' %}">
+                <div class="subtitle is-2">
+                    ANITS Photography Contest
+                </div>
+            </a>
+
+            <!--<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">-->
+                <!--<span aria-hidden="true"></span>-->
+                <!--<span aria-hidden="true"></span>-->
+                <!--<span aria-hidden="true"></span>-->
+            <!--</a>-->
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="{% url 'register' %}">
+                            <strong>Register</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card has-text-centered">
+        <div class="card-header">
+            <div class="card-header-title is-centered">
+                {{ picture.title }}
+            </div>
+        </div>
+        <div class="card-image">
+            <figure>
+                <img src="{{ picture.picture.url }}">
+            </figure>
+        </div>
+        <div class="card-footer">
+            <div class="card-footer-item">
+                {{ picture.votes }} votes
+            </div>
+        </div>
+    </div>
+
+    <div class="box column is-half is-offset-one-quarter is-full-tablet">
+        <a class="box" href="{{ picture.social_account }}">
+            {{ picture.name }}
+        </a>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <div class="box">
+                {{ voter_form.email }}
+            </div>
+
+            <button class="button" type="submit">
+                Vote
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
