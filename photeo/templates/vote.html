@@ -63,7 +63,7 @@
             {{ picture.name }}
         </a>
 
-        <form method="POST">
+        <form method="POST" autocomplete="off">
             {% csrf_token %}
 
             <div class="box is-size-4-touch">
