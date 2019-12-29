@@ -23,12 +23,17 @@ class VoteView(View):
 
         contestant = Contestant.objects.get(email=contestant_email)
 
-        voter = Voter.objects.filter(email=voter_email)
-        if len(voter) != 0:
+        voter = Voter.objects.filter(email=voter_email, verified=True)
+        if voter:
             return redirect('gallery')
 
-        vote = Voter(email=voter_email, vote=contestant)
-        vote.save()
+        voter = Voter.objects.get(email=voter_email)
+        if voter:
+            voter.vote = contestant
+            voter.save()
+        else:
+            vote = Voter(email=voter_email, vote=contestant)
+            vote.save()
 
         return render(
             request,

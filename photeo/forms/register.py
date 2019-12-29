@@ -13,15 +13,15 @@ class ContestantRegistrationForm(forms.ModelForm):
                     }),
             'email': forms.EmailInput(attrs={
                         'class': 'input',
-                        'placeholder': 'email'
+                        'placeholder': 'jondoe@gmail.com'
                     }),
             # 'picture': forms.ImageField(),
             'title': forms.TextInput(attrs={
                         'class': 'input',
-                        'placeholder': 'title'
+                        'placeholder': 'Sunrise at Beach'
                     }),
             'social_account': forms.TextInput(attrs={
                                 'class': 'input',
-                                'placeholder': 'social account'
+                                'placeholder': 'https://www.instagram.com/ajay_raj_nelapudi/'
                             }),
         }

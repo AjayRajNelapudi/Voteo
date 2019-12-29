@@ -10,8 +10,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="{% url 'gallery' %}">
-                <div class="subtitle is-2">
-                    ANITS Photography Contest
+                <div class="subtitle is-2 is-size-1-touch">
+                    CURSORS Photography Contest
                 </div>
             </a>
 
@@ -29,38 +29,39 @@
             </div>
         </div>
     </nav>
+    <br>
 
-    <form method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
+    <div class="box column is-three-fifths is-offset-one-fifth">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
 
-        <table class="table is-hoverable is-bordered" align="center">
-            <tr>
-                <td><strong>Name</strong></td>
-                <td>{{ contestant.name }}</td>
-            </tr>
-            <tr>
-                <td><strong>Email</strong></td>
-                <td>{{ contestant.email }}</td>
-            </tr>
-            <tr>
-                <td><strong>Insta profile</strong></td>
-                <td>{{ contestant.social_account }}</td>
-            </tr>
-            <tr>
-                <td><strong>Picture</strong></td>
-                <td>{{ contestant.picture }}</td>
-            </tr>
-            <tr>
-                <td><strong>Title</strong></td>
-                <td>{{ contestant.title }}</td>
-            </tr>
+            <table class="table is-fullwidth is-bordered" align="center">
+                <tr>
+                    <td class="is-size-5-touch">Name</td>
+                    <td class="is-size-5-touch">{{ contestant.name }}</td>
+                </tr>
+                <tr>
+                    <td class="is-size-5-touch">Email</td>
+                    <td class="is-size-5-touch">{{ contestant.email }}</td>
+                </tr>
+                <tr>
+                    <td class="is-size-5-touch">Instagram</td>
+                    <td class="is-size-5-touch">{{ contestant.social_account }}</td>
+                </tr>
+                <tr>
+                    <td class="is-size-5-touch">Picture</td>
+                    <td class="is-size-5-touch">{{ contestant.picture }}</td>
+                </tr>
+                <tr>
+                    <td class="is-size-5-touch">Title</td>
+                    <td class="is-size-5-touch">{{ contestant.title }}</td>
+                </tr>
 
-            <tr><td>
-                <div class="control">
-                    <button class="button is-link" type="submit">Upload</button>
-                </div>
-            </td></tr>
-        </table>
-    </form>
+                <tr><td class="has-text-centered" colspan="2">
+                        <button class="button is-link" type="submit">Upload</button>
+                </td></tr>
+            </table>
+        </form>
+    </div>
 </body>
 </html>

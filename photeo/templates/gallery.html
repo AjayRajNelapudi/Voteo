@@ -10,8 +10,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="{% url 'gallery' %}">
-                <div class="subtitle is-2">
-                    ANITS Photography Contest
+                <div class="subtitle is-2 is-size-1-touch">
+                    CURSORS Photography Contest
                 </div>
             </a>
 
@@ -49,13 +49,13 @@
                             <img src="{{ picture.picture.url }}">
                         </figure>
                         <div class="card-content is-overlay is-clipped">
-                            <span class="tag is-info">
-                                {{ picture.votes }} <p>&heartsuit;</p>
+                            <span class="tag is-info is-size-3-touch">
+                                {{ picture.votes }} <p>&nbsp; &hearts;</p>
                             </span>
                         </div>
                     </div>
                     <footer class="card-footer">
-                        <div class="card-footer-item">
+                        <div class="card-footer-item is-size-3-touch">
                             {{ picture.title }}
                         </div>
                     </footer>

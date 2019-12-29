@@ -20,4 +20,4 @@ class ContestantRegistrationView(View):
         contestant_form = ContestantRegistrationForm(request.POST, request.FILES)
         if contestant_form.is_valid():
             contestant_form.save()
-            return redirect('gallery')
+        return redirect('gallery')

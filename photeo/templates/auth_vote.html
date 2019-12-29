@@ -11,7 +11,7 @@
         <div class="navbar-brand">
             <a class="navbar-item" href="{% url 'gallery' %}">
                 <div class="subtitle is-2">
-                    ANITS Photography Contest
+                    CURSORS Photography Contest
                 </div>
             </a>
 
@@ -39,13 +39,14 @@
             </div>
         </div>
     </nav>
+    <br>
 
-    <div class="card column is-half is-offset-one-quarter is-full-tablet">
-        <div class="box">
-            You need to login with {{ email }} to cast your vote.
+    <div class="card column is-10 is-offset-1 is-full-mobile has-text-centered">
+        <div class="box is-size-3-touch">
+            You will need to login with <i>{{ email }}</i> to confirm your vote.
         </div>
 
-        <a class="button" href="{% url 'social:begin' 'google-oauth2' %}">
+        <a class="button is-info is-size-3-touch" href="{% url 'social:begin' 'google-oauth2' %}">
             Login
         </a>
     </div>

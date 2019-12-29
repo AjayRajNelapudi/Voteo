@@ -5,6 +5,6 @@ class VoterForm(forms.Form):
         required=True,
         widget=forms.EmailInput(attrs={
             'class': 'input',
-            'placeholder': 'email'
+            'placeholder': 'jondoe@gmail.com'
         })
     )
