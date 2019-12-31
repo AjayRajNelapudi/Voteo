@@ -103,7 +103,7 @@ SOCIAL_AUTH_URL_NAMESPACE = 'social'
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '570005585450-hupn1ng996inn4psh1uvf36c892nac2r.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'Ewlf8JkCNWuz41eBxULkJuFl'
 
-LOGIN_REDIRECT_URL = 'gallery'
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/gallery/'
 
 WSGI_APPLICATION = 'voteo.wsgi.application'
 

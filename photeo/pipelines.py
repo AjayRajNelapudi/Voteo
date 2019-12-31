@@ -4,7 +4,7 @@ from .models import Voter, Contestant
 def cast_vote(backend, user, response, *args, **kwargs):
     email = response.get('email')
 
-    contestant = Voter.objects.filter(email=email).values_list('vote__name')
+    contestant = Voter.objects.filter(email=email, verified=False).values_list('vote__name')
     if not contestant:
         pass
     elif email.split('@')[-1] == 'anits.edu.in':
