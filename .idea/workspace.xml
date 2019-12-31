@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dfb04d0c-27dc-4304-a3ea-46169ee8923a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/auth_vote.html" afterPath="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/gallery.html" afterPath="$PROJECT_DIR$/photeo/templates/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/register.html" afterPath="$PROJECT_DIR$/photeo/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/vote.html" afterPath="$PROJECT_DIR$/photeo/templates/vote.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteo/settings.py" afterPath="$PROJECT_DIR$/voteo/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteo/wsgi.py" afterPath="$PROJECT_DIR$/voteo/wsgi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +52,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/voteo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="36" />
+            <state relative-caret-position="307">
+              <caret line="168" column="0" lean-forward="true" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -71,16 +77,6 @@
               <folding>
                 <element signature="e#221#230#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voteo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -176,8 +172,9 @@
         <option value="$PROJECT_DIR$/photeo/views/vote.py" />
         <option value="$PROJECT_DIR$/photeo/templates/gallery.html" />
         <option value="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
-        <option value="$PROJECT_DIR$/voteo/settings.py" />
         <option value="$PROJECT_DIR$/voteo/wsgi.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/voteo/settings.py" />
       </list>
     </option>
   </component>
@@ -647,7 +644,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -672,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voteo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="36" />
+        <state relative-caret-position="307">
+          <caret line="168" column="0" lean-forward="true" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding />
         </state>
       </provider>
