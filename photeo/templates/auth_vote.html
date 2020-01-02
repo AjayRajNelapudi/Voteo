@@ -43,7 +43,11 @@
 
     <div class="card column is-10 is-offset-1 is-full-mobile has-text-centered">
         <div class="box is-size-3-touch">
-            You will need to login with <i>{{ email }}</i> to confirm your vote.
+            <div class="content">
+                <ul>
+                    <li>You will need to login with <i>{{ email }}</i> to confirm your vote.</li>
+                </ul>
+            </div>
         </div>
 
         <a class="button is-info is-size-3-touch" href="{% url 'social:begin' 'google-oauth2' %}">
