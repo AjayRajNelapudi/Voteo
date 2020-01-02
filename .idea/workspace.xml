@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb04d0c-27dc-4304-a3ea-46169ee8923a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/auth_vote.html" afterPath="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/gallery.html" afterPath="$PROJECT_DIR$/photeo/templates/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/register.html" afterPath="$PROJECT_DIR$/photeo/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/vote.html" afterPath="$PROJECT_DIR$/photeo/templates/vote.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="auth_vote.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="auth_vote.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="-523">
               <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/photeo/templates/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="207">
+              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -168,8 +165,8 @@
         <option value="$PROJECT_DIR$/voteo/settings.py" />
         <option value="$PROJECT_DIR$/photeo/templates/vote.html" />
         <option value="$PROJECT_DIR$/photeo/templates/register.html" />
-        <option value="$PROJECT_DIR$/photeo/templates/gallery.html" />
         <option value="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
+        <option value="$PROJECT_DIR$/photeo/templates/gallery.html" />
       </list>
     </option>
   </component>
@@ -634,18 +631,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/templates/gallery.html">
+    <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="-523">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
+    <entry file="file://$PROJECT_DIR$/photeo/templates/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="207">
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
           <folding />
         </state>
       </provider>
