@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb04d0c-27dc-4304-a3ea-46169ee8923a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/models.py" afterPath="$PROJECT_DIR$/photeo/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/auth_vote.html" afterPath="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/gallery.html" afterPath="$PROJECT_DIR$/photeo/templates/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/register.html" afterPath="$PROJECT_DIR$/photeo/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/vote.html" afterPath="$PROJECT_DIR$/photeo/templates/vote.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="auth_vote.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auth_vote.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="31" column="22" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="287">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -29,7 +28,7 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photeo/templates/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="150">
               <caret line="31" column="22" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
@@ -46,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vote.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vote.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photeo/templates/vote.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="399">
               <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
@@ -91,18 +90,18 @@
       <file leaf-file-name="register.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photeo/views/register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photeo/views/gallery.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photeo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="95">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -155,9 +154,7 @@
         <option value="$PROJECT_DIR$/photeo/templates/registration.html" />
         <option value="$PROJECT_DIR$/photeo/forms/vote.py" />
         <option value="$PROJECT_DIR$/photeo/forms/contestant.py" />
-        <option value="$PROJECT_DIR$/photeo/views/register.py" />
         <option value="$PROJECT_DIR$/photeo/forms/register.py" />
-        <option value="$PROJECT_DIR$/photeo/models.py" />
         <option value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py" />
         <option value="$PROJECT_DIR$/photeo/views/vote.py" />
         <option value="$PROJECT_DIR$/Procfile" />
@@ -167,9 +164,11 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/voteo/settings.py" />
         <option value="$PROJECT_DIR$/photeo/templates/register.html" />
-        <option value="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
         <option value="$PROJECT_DIR$/photeo/templates/gallery.html" />
         <option value="$PROJECT_DIR$/photeo/templates/vote.html" />
+        <option value="$PROJECT_DIR$/photeo/models.py" />
+        <option value="$PROJECT_DIR$/photeo/views/register.py" />
+        <option value="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
       </list>
     </option>
   </component>
@@ -504,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -602,34 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/views/register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/voteo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3496">
           <caret line="184" column="30" lean-forward="false" selection-start-line="184" selection-start-column="30" selection-end-line="184" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/templates/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -644,8 +612,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photeo/templates/vote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="399">
           <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photeo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photeo/views/register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photeo/templates/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
       </provider>
