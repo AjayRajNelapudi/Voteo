@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb04d0c-27dc-4304-a3ea-46169ee8923a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/auth_vote.html" afterPath="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/register.html" afterPath="$PROJECT_DIR$/photeo/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photeo/templates/vote.html" afterPath="$PROJECT_DIR$/photeo/templates/vote.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="auth_vote.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="auth_vote.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photeo/templates/auth_vote.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
@@ -36,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/photeo/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="26" column="83" lean-forward="false" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+            <state relative-caret-position="196">
+              <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -167,9 +164,9 @@
         <option value="$PROJECT_DIR$/photeo/models.py" />
         <option value="$PROJECT_DIR$/photeo/views/register.py" />
         <option value="$PROJECT_DIR$/photeo/templates/gallery.html" />
-        <option value="$PROJECT_DIR$/photeo/templates/register.html" />
         <option value="$PROJECT_DIR$/photeo/templates/vote.html" />
         <option value="$PROJECT_DIR$/photeo/templates/auth_vote.html" />
+        <option value="$PROJECT_DIR$/photeo/templates/register.html" />
       </list>
     </option>
   </component>
@@ -619,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photeo/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="26" column="83" lean-forward="false" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photeo/templates/vote.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -639,6 +628,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="36" column="81" lean-forward="false" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photeo/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
           <folding />
         </state>
       </provider>
